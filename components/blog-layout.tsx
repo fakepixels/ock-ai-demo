@@ -11,13 +11,13 @@ export function BlogLayout() {
     <header className="sticky top-0 z-10 border-b bg-background/80 backdrop-blur-sm">
       <div className="mx-auto flex h-14 max-w-5xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link href="#" className="text-lg font-semibold" prefetch={false}>
-          Minimal Blog
+          Onchain or Nowhere 
         </Link>
-        <nav className="hidden items-center space-x-4 md:flex">
-          <Link href="#" className="rounded-md px-3 py-2 text-sm font-medium hover:bg-muted/50" prefetch={false}>
+        <nav className="hidden items-center space-x-4 pb-4 md:flex">
+          <Link href="https://onchainkit.xyz/" className="rounded-md px-3 py-2 text-sm font-medium hover:bg-muted/50" prefetch={false}>
             About
           </Link>
-          <Link href="#" className="rounded-md px-3 py-2 text-sm font-medium hover:bg-muted/50" prefetch={false}>
+          <Link href="https://onchainkit.xyz/" className="rounded-md px-3 py-2 text-sm font-medium hover:bg-muted/50" prefetch={false}>
             Contact
           </Link>
           <div className="z-1999">
@@ -175,18 +175,18 @@ export function BlogLayout() {
       <footer className="border-t bg-muted/20 py-6">
         <div className="container mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
-            <p className="text-sm text-muted-foreground">&copy; 2024 Minimal Blog. All rights reserved.</p>
+            <p className="text-sm text-muted-foreground">&copy; 2024 OnchainKit Blog. All rights reserved.</p>
             <nav className="flex space-x-4">
-              <Link href="#" className="text-sm font-medium hover:text-primary" prefetch={false}>
+              <Link href="https://onchainkit.xyz/" className="text-sm font-medium hover:text-primary" prefetch={false}>
                 About
               </Link>
-              <Link href="#" className="text-sm font-medium hover:text-primary" prefetch={false}>
+              <Link href="https://onchainkit.xyz/" className="text-sm font-medium hover:text-primary" prefetch={false}>
                 Contact
               </Link>
-              <Link href="#" className="text-sm font-medium hover:text-primary" prefetch={false}>
+              <Link href="https://onchainkit.xyz/" className="text-sm font-medium hover:text-primary" prefetch={false}>
                 Privacy
               </Link>
-              <Link href="#" className="text-sm font-medium hover:text-primary" prefetch={false}>
+              <Link href="https://onchainkit.xyz/" className="text-sm font-medium hover:text-primary" prefetch={false}>
                 Terms
               </Link>
             </nav>
