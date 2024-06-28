@@ -3,6 +3,7 @@
 import Link from "next/link"
 import { WalletComponents } from "./WalletComponents";
 import '@coinbase/onchainkit/styles.css';
+import { JSX, SVGProps } from "react";
 
 export function BlogLayout() {
   return (
@@ -23,10 +24,6 @@ export function BlogLayout() {
           <WalletComponents />
           </div>
         </nav>
-          <button className="rounded-md p-2 text-muted-foreground transition-colors hover:bg-muted/50 focus:outline-none md:hidden">
-            <MenuIcon className="h-6 w-6" />
-            <span className="sr-only">Toggle menu</span>
-          </button>
         </div>
       </header>
       <main className="flex-1">
@@ -200,7 +197,7 @@ export function BlogLayout() {
   )
 }
 
-function MenuIcon(props) {
+function MenuIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
